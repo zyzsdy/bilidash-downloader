@@ -2,7 +2,8 @@
 
 ## 安装
 
-Python 3.5+
+Python 3.5以上（推荐3.6）
+
 Mkvmerge (尽量高的版本)
 
 请把mkvmerge放到path里
