@@ -1,0 +1,16 @@
+在需要下载的B站播放页上右键，选择“查看网页源代码”，然后把所有内容保存在这里。<br>
+<br>
+接下来运行<br>
+python bdd.py temp.html<br>
+即可下载<br>
+<br>
+如果希望先查询格式列表，你可以使用<br>
+python bdd.py -F temp.html<br>
+命令<br>
+<br>
+找到需要的格式后，使用<br>
+python bdd.py -f &lt;格式代码> temp.html<br>
+或者<br>
+python bdd.py -f &lt;视频格式代码>+&lt;音频格式代码> temp.html<br>
+下载<br>
+<br>
